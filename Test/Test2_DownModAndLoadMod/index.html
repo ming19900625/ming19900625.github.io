@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="./app.js"></script>
+    <script src="../Tools/Cylinder.js"></script>
+    <script src="../Tools/FileHelper.js"></script>
+    <script src="../Tools/minMatrix.js"></script>
+    <script src="../Tools/Vector2.js"></script>
+    <script src="../Tools/Vector3.js"></script>
+    <script src="../Tools/Model.js"></script>
+</head>
+<body style="text-align:center">
+    <div id="content" style="width:1200px;height:800px;margin:0 auto">
+        <div id="drawArea" style="width:800px;height:800px;background-color:aliceblue;float:left">
+            <canvas id="renderCanvas" style="width:inherit;height:inherit"></canvas>
+        </div>
+        <div id="inputArea" style="width:400px;height:800px;background-color:azure;float:right">
+            <br />
+            <h2>练习1：</h2>
+            <label>分段数：</label>
+            <input id="fragInput" type="number" value="3"/>
+            <br />
+            <br />
+            <button id="drawCylinderBtn">绘制圆柱体</button>
+            <br />
+            <br />
+            <h2>练习2：</h2>
+            <label>第一步:下载绘制的圆柱体和材质</label>
+            <br />
+            <button id="downloadBtn">下载</button>
+            <br />
+            <br />
+            <label>第二步:上传模型并显示</label>
+            <input type="file" multiple id="file" style="border-color:azure;border-width:5px"/>
+            <br />
+            <button id="drawModelBtn">绘制</button>
+            <br />
+        </div>
+    </div>
+    
+    
+</body>
+</html>

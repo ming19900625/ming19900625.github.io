@@ -1,0 +1,85 @@
+﻿body {
+}
+
+.apparea{
+     width:300px;
+     height:480px;
+     background-color:azure;
+     position:absolute;
+     top:0;
+     right:0;
+     left:0;
+     bottom:0;
+     margin:auto;
+}
+
+.bannar{
+    width:300px;
+    height:50px;
+    background-color:turquoise;
+}
+
+.title{
+    position:relative;
+    width:100px;
+    height:30px;
+    /*background-color:burlywood;*/
+    margin:0 auto;
+    top:10px;
+    line-height:30px;
+    text-align:center;
+}
+
+.back{
+    position:relative;
+    width:100px;
+    height:50px;
+    float:left;
+    /*background-color:burlywood;*/
+}
+
+.forword{
+    position:relative;
+    width:100px;
+    height:50px;
+    float:right;
+    /*background-color:burlywood;*/
+}
+
+.backbtn{
+    position:relative;
+    width:50px;
+    height:50px;
+    float:left;
+    /*background-color:burlywood;*/
+    left:25px;
+}
+
+.forwardbtn{
+    position:relative;
+    width:50px;
+    height:50px;
+    float:left;
+    /*background-color:burlywood;*/
+    left:25px;
+}
+
+.content{
+    width:auto;
+    height:430px;
+    background-color:burlywood;
+}
+
+.icon{
+    width:65px;
+    height:65px;
+    padding:5px;
+}
+
+.people{
+    width:300px;
+    height:50px;
+    background-color:grey;
+    line-height:50px;
+    text-align:center;
+}
