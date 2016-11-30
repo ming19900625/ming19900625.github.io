@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="chessboard.js"></script>
+    <script src="chessboard1.js"></script>
+    <script src="chessboard2.js"></script>
+    <script src="chessboard3.js"></script>
+    <script src="app.js"></script>
+    <style>
+        div.content {
+            width: 300px;
+            height: 480px;
+            background-color:aliceblue;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body style="text-align:center">
+    <div id="content" class="content">
+        <label>N皇后问题</label>
+        <br />
+        <div style="width:300px">
+            <label>棋盘大小</label>
+            <input id="inputValue" type="number" value="4" style="width:50px" />
+            <button id="btn" style="width:150px">计算结果</button>
+        </div>
+        <br />
+        <label id="resultCount" style="width:290px"></label>
+        <br />
+        <textarea id="allResult" style="width:290px;height:400px"></textarea>
+    </div>
+</body>
+</html>
